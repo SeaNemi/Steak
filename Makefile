@@ -3,7 +3,7 @@ CXX = g++
 CXXFLAGS = -Wall -Wextra -std=c++17 -g -I.
 
 #Contingencies
-SRC_DIRS = . cards random_gen
+SRC_DIRS = . cards random_gen common
 OBJ_DIR = obj
 BIN_DIR = bin
 TARGET = $(BIN_DIR)/steak

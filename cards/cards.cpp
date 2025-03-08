@@ -46,6 +46,7 @@ Card Deck::randcard(Random ran){
 
 }
 
+//test to ensure displays properly, may be later removed
 void Deck::test(){
     for(char i = 0; i < DECKNUM; i++){
         std::cout << "Value : " << deck[i].value <<  " S: " << deck[i].suit << " F:" << deck[i].face << std::endl;
