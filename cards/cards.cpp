@@ -48,6 +48,6 @@ Card Deck::randcard(Random ran){
 
 void Deck::test(){
     for(char i = 0; i < DECKNUM; i++){
-        std::cout << "Value: " << deck[i].value <<  " S: " << deck[i].suit << " F:" << deck[i].face << std::endl;
+        std::cout << "Value : " << deck[i].value <<  " S: " << deck[i].suit << " F:" << deck[i].face << std::endl;
     }
 }
